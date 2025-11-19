@@ -1,5 +1,5 @@
-import { Product } from "@/app/interface/i-product";
 import ProductCard from "./product-card";
+import { Product } from "@/types";
 
 const ProductList = ({
   data,
