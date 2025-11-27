@@ -2,7 +2,6 @@ import 'dotenv/config'
 import { PrismaPg } from '@prisma/adapter-pg'
 import { PrismaClient } from './prisma/client'
 import sampleData from "./sample-data";
-import { PrismaPg } from "@prisma/adapter-pg";
 // import ws from "ws";
 
 async function main() {

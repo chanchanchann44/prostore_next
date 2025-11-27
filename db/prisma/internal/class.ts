@@ -36,9 +36,7 @@ const config: runtime.GetPrismaClientConfig = {
         "native": true
       }
     ],
-    "previewFeatures": [
-      "driverAdapters"
-    ],
+    "previewFeatures": [],
     "sourceFilePath": "/Users/skinx/Documents/poc/prostore_next/prisma/schema.prisma",
     "isCustomOutput": true
   },
