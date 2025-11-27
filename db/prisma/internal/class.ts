@@ -23,7 +23,7 @@ const config: runtime.GetPrismaClientConfig = {
       "value": "prisma-client"
     },
     "output": {
-      "value": "/Users/chan/Documents/GitHub/prostore/db/prisma",
+      "value": "/Users/skinx/Documents/poc/prostore_next/db/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -37,7 +37,7 @@ const config: runtime.GetPrismaClientConfig = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/chan/Documents/GitHub/prostore/prisma/schema.prisma",
+    "sourceFilePath": "/Users/skinx/Documents/poc/prostore_next/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativePath": "../../prisma",

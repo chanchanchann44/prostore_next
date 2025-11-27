@@ -1,15 +1,14 @@
-import { PrismaClient } from "@/db/prisma/client";
-// import { PrismaNeon } from "@prisma/adapter-neon";
-// import { PrismaClient } from "@prisma/client";
+import 'dotenv/config'
+import { PrismaPg } from '@prisma/adapter-pg'
+import { PrismaClient } from './prisma/client'
 import sampleData from "./sample-data";
-import { PrismaPg } from "@prisma/adapter-pg";
 // import ws from "ws";
 
 async function main() {
-  const connectionString = `${process.env.DATABASE_URL}`;
-  const adapter = new PrismaPg({ connectionString: connectionString });
-  const prisma = new PrismaClient({ adapter });
-  // const prisma = new PrismaClient();
+  const connectionString = `${process.env.DATABASE_URL}`
+
+const adapter = new PrismaPg({ connectionString })
+const prisma = new PrismaClient({ adapter })
   await prisma.product.deleteMany();
   // await prisma.account.deleteMany();
   // await prisma.session.deleteMany();
