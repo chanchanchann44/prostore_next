@@ -10,9 +10,13 @@ import ProductImages from "@/components/shared/product/product-images";
 const ProductDetailsPage = async (props: {
   params: Promise<{ slug: string }>;
 }) => {
+  console.log("\nenter\n");
   const { slug } = await props.params;
+  console.log("slug: ", slug);
   const product = await getProductBySlug(slug);
+  console.log("product: ", product);
   if (!product) notFound();
+  console.log("product 2: ", product);
   return (
     <>
       <section>
