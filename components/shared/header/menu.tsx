@@ -22,7 +22,7 @@ const MenuHeader = () => {
           </Link>
         </Button>
         <Button asChild>
-          <Link href="/signin">
+          <Link href="/sign-in">
             <UserIcon />
             <span>Sign In</span>
           </Link>
@@ -42,7 +42,7 @@ const MenuHeader = () => {
               </Link>
             </Button>
             <Button asChild>
-              <Link href="/signin">
+              <Link href="/sign-in">
                 <UserIcon />
                 <span>Sign In</span>
               </Link>
